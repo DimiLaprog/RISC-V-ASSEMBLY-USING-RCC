@@ -25,15 +25,15 @@ While Flashing, ignore any cahnge in switches. After flashing, LEDs remain OFF u
 Implement the following function following RCC:
 
 
-#define N 6
-int i, j=0, A[N]={48,64,56,80,96,48}, B[N];
-for (i=0; i<(N-1); i++) {
-  if ( (myFilter(A[i],A[i+1]) ) == 1) {
-    B[j]=A[i] + A[i+1] + 2;
-    j++;
-    }
-}
-myFilter returns 1 iff its first argument is a multiple of 16 and the second argument is greater than the first one. Otherwise it returns 0
+* #define N 6
+* int i, j=0, A[N]={48,64,56,80,96,48}, B[N];
+* for (i=0; i<(N-1); i++) {
+*   if ( (myFilter(A[i],A[i+1]) ) == 1) {
+*     B[j]=A[i] + A[i+1] + 2;
+*     j++;
+*     }
+* }
+* myFilter returns 1 iff its first argument is a multiple of 16 and the second argument is greater than the first one. Otherwise it returns 0
   
 ## For pseudocode solutions check the corresponding PDF. For the assembly code check the "code" file.  
 
