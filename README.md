@@ -38,6 +38,7 @@ myFilter returns 1 iff its first argument is a multiple of 16 and the second arg
 ## For pseudocode solutions check the corresponding PDF. For the assembly code check the "code" file.  
 
 ## There is also a pdf concerning loops in C
-Intellectual Property: Feel free to use any programs or routine to your projects
 
-Author: Dimitrios Lampros
+## Intellectual Property: Feel free to use any programs or routine to your projects
+
+## Author: Dimitrios Lampros
