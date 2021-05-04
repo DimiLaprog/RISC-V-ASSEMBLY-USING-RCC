@@ -19,7 +19,7 @@ Add 4 MSBs and 4 LSBs of Switches and put the result on 4 LSBs of LEDS. In case 
 
 ### EX 4:
 Flash the bitwise not of Switches (on-off) n times on the LEDs. n is the number of "ones" (1) contained in the bitwise not of Switches.
-While Flashing, ignore any cahnge in switches. After flashing, LEDs remain OFF until the MSB of switches Changes.
+While Flashing, ignore any change in switches. After flashing, LEDs remain OFF until the MSB of switches changes.
 
 ### EX 5(MyFilter):
 Implement the following function following RCC:
